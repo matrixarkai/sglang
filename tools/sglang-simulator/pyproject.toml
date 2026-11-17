@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sglang-simulator"
+license = { file = "LICENSE" }
 dynamic = ["version"]
 description = "A simulation benchmark tool for sglang"
 dependencies = [

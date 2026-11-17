@@ -10,7 +10,7 @@ build-backend = "maturin"
 
 [project]
 name = "sglang-grpc"
-dynamic = ["version"]
+dynamic = ["version", "license"]
 description = "In-process Rust gRPC server for SGLang"
 requires-python = ">=3.11"
 
